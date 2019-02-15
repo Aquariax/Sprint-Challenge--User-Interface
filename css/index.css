@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+.bar{
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    margin: 1% 0% 3% 0%;
+}
+
+nav{
+    width: 600px;
+    margin-left: 7%;
+}
+
+nav a{
+    padding: 5%;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.jumbo{
+    margin: 2% 0% 3%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +135,46 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue ;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson ;
+}
+
+#box6{
+    background-color:forestgreen ;
+}
+
+#box7{
+    background-color:darkorchid ;
+}
+
+#box8{
+    background-color:hotpink ;
+}
+
+#box9{
+    background-color:indigo ;
+}
+
+#box10{
+    background-color:dodgerblue ;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +187,41 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.four{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3% 0% 3%;
+    border-top: 1px dashed black;
+    padding: 2% 0% 1%;
+}
+
+.one{
+    width: 48%;
+    padding: 2% 1% ;
+    margin: 1%;
+    border-bottom: 1px dashed black;
+}
+
+.spaced{
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.work{
+    margin: 6% 0%;
+}
+
+button{
+    margin: 3%;
+    width: 160px;
+    height: 45px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
 
 footer {
